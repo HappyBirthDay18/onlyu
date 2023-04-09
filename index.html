@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Only U</title>
+<link rel="shortcut icon" type="image/png" href="haoi.jpg"/>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("CÓ VẺ HƠI 'LẠC CHỦ ĐỀ' MỘT CHÚT XÍU, NHƯNG MÀ A CHỈ MUỐN LÀ A ĐẪ KO ỦNG HỘ NHỮNG VIỆC E LÀM TRONG SUỐT THỜI GIAN QUA. A KO MUỐN CẢ HAI PHẢI XA NHAU VÌ ĐIỀU NÀY. A SẼ ỦNG HỘ NHỮNG VIỆC E LÀM TRONG TƯƠNG LAI NHIỀU HƠN. I LOVE U ALWAYS.")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=880
+            Bn.style.left=400
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=880
+            Bn.style.left=200
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=910
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> Helluuu!</h1>
+<p><video width="700" height="700"  controls loop autoplay="autoplay" >
+<source src="123.mp4" type="video/mp4">
+Your browser does not support the video tag
+</video> 
+<h1 style="#">Em có biết điều gì lạ ở đây không?</h1>
+<div id="By" style="position:absolute; left:64px; top: 850px; width:210px;
+height:210px;">
+<input type="button" value=" CHẮC LÀ CÓ  " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top: 850px; width:310px; height: 210px;">
+<input type="button" value=" KHÔNG " onMouseOver="f()" />
+</div>
+
+</html>
